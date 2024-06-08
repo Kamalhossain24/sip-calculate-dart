@@ -1,7 +1,7 @@
 library calculate_plugin;
 import 'dart:math';
 
-class SipCalculate {
+class CalculatePlugin {
   static step_up_sip(_amount, _years, _yearlyReturn, _annualIncrement) {
     double amount = _amount;
     double yearlyReturn = _yearlyReturn;

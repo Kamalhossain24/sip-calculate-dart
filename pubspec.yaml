@@ -15,6 +15,6 @@ flutter:
   plugin:
     platforms:
       android:
-        package: com.unika.calculate_plugin
+        package: com.example.calculate_plugin
       ios:
-        pluginClass: SipCalculate
+        pluginClass: CalculatePlugin
