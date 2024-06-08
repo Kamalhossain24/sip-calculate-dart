@@ -1,3 +1,4 @@
+library calculate_plugin;
 import 'dart:ffi';
 import 'dart:math';
 
