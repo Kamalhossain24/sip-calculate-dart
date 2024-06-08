@@ -6,14 +6,12 @@ repository: https://github.com/Kamalhossain24/sip-calculate-dart
 issue_tracker: https://github.com/Kamalhossain24/sip-calculate-dart/issues
 environment:
   sdk: ">=2.12.0 <3.0.0"
+
 dependencies:
   flutter:
     sdk: flutter
+
+# Remove platform-specific plugin configurations
 flutter:
   plugin:
-    platforms:
-      android:
-        package: com.unikainfocom.calculate_plugin
-        pluginClass: SipCalculate
-      ios:
-        pluginClass: SipCalculate
+    implements: flutter
