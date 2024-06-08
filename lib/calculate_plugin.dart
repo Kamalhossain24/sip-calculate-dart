@@ -1,7 +1,7 @@
 import 'dart:ffi';
 import 'dart:math';
 
-class Calculate {
+class SipCalculate {
   static step_up_sip(_amount, _years, _yearlyReturn, _annualIncrement) {
     double amount = _amount;
     double yearlyReturn = _yearlyReturn;
